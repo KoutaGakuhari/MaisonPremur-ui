@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ログインフォーム</title>
+    <script src="../static/js/loginForm.js" th:src="@{/js/loginForm.js}"></script>
+    <link href="../static/css/common.css" th:href="@{static/css/common.css}" rel="stylesheet"></link>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>節約しようや</h1>
+            <p>収入が少ない人は節約するしかないのです。</p>
+        </div>
+    </div>
+
+   <div>
+        <form method="get" class="login-form">
+                <input type="text" placeholder="login user" class="form-text" name="loginId"><br>
+                <input type="text" placeholder="pass word" name="passWord"><br>
+                <button type="submit" onClick="login();" >ログイン</button>
+        </form>
+
+
+            <a href="" class="">ユーザー登録はこちらから</a>
+    </div>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>

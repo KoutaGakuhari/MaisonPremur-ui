@@ -1,0 +1,31 @@
+body {
+	color: red;
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    background-image: url("../img/Binbounin.png");
+    background-color: #fef4f4;
+    height: 250px;
+    margin: 30px;
+    color: black;
+}
+
+.login-form {
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.login-form form-text {
+    margin: 10px;
+
+}
